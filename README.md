@@ -9,7 +9,7 @@ PINN for Inverse Burgers' Equation Solves an inverse problem using a Physics-Inf
 ## Overview
 
 This project uses a Physics-Informed Neural Network (PINN) to solve an **inverse problem** for the 1D Burgers' equation.  
-The goal is to **infer the unknown viscosity parameter (nu\)** based on limited observation data while enforcing the PDE through physics-based loss.
+The goal is to **infer the unknown viscosity parameter \(nu\)** based on limited observation data while enforcing the PDE through physics-based loss.
 
 This work is an extension of starter code provided in [CISC489] at [University of Delaware] (Spring 2025), with major modifications including extended training, loss tracking, and visualization of results.
 
@@ -30,7 +30,7 @@ This work is an extension of starter code provided in [CISC489] at [University o
 - **Loss**: Combined **data loss** (supervised) + **physics residual loss** (unsupervised).
 - **Optimization**: First trained with **Adam optimizer**, then polished using **L-BFGS** optimizer.
 - **Physics Loss**: PDE residual computed via automatic differentiation using PyTorch.
-- **Inverse Learning**: Viscosity coefficient \(\nu\) treated as a learnable parameter.
+- **Inverse Learning**: Viscosity coefficient \(nu\) treated as a learnable parameter.
 
 ---
 
@@ -94,16 +94,16 @@ This work is an extension of starter code provided in [CISC489] at [University o
 |:-------|:------|
 | True viscosity \(\nu\) | 0.17 |
 | Inferred viscosity \(\nu\) | 0.167 |
-| Final Loss | \( \3.05 × 10⁻²\) |
+| Final Loss | \( 3.05 × 10⁻²\) |
 
-✅ The PINN successfully inferred \(\nu\) very close to the true value.
+✅ The PINN successfully inferred \(nu\) very close to the true value.
 
 ---
 
 ### Loss Convergence
 
 Training loss steadily decreased during 5000 epochs of Adam optimization, and further reduced by L-BFGS optimization.  
-The final loss stabilized around \3.05 × 10⁻²\), indicating good model convergence.
+The final loss stabilized around \(3.05 × 10⁻²\), indicating good model convergence.
 
 ---
 

@@ -9,7 +9,7 @@ PINN for Inverse Burgers' Equation Solves an inverse problem using a Physics-Inf
 ## Overview
 
 This project uses a Physics-Informed Neural Network (PINN) to solve an **inverse problem** for the 1D Burgers' equation.  
-The goal is to **infer the unknown viscosity parameter (\nu\)** based on limited observation data while enforcing the PDE through physics-based loss.
+The goal is to **infer the unknown viscosity parameter (nu\)** based on limited observation data while enforcing the PDE through physics-based loss.
 
 This work is an extension of starter code provided in [CISC489] at [University of Delaware] (Spring 2025), with major modifications including extended training, loss tracking, and visualization of results.
 

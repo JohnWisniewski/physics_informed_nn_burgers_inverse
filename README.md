@@ -142,8 +142,8 @@ This work is an extension of starter code provided in [CISC489] at [University o
 
 | Metric | Value |
 |:-------|:------|
-| True viscosity \(\nu\) | 0.17 |
-| Inferred viscosity \(\nu\) | 0.167 |
+| True viscosity \(nu\) | 0.17 |
+| Inferred viscosity \(nu\) | 0.167 |
 | Final Loss | \( 3.05 × 10⁻²\) |
 
 ✅ The PINN successfully inferred \(nu\) very close to the true value.

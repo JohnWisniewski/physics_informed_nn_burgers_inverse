@@ -94,7 +94,7 @@ This work is an extension of starter code provided in [CISC489] at [University o
 |:-------|:------|
 | True viscosity \(\nu\) | 0.17 |
 | Inferred viscosity \(\nu\) | 0.167 |
-| Final Loss | \( \approx 3.05 \times 10^{-2} \) |
+| Final Loss | \( \3.05 × 10⁻²\) |
 
 ✅ The PINN successfully inferred \(\nu\) very close to the true value.
 
@@ -103,7 +103,7 @@ This work is an extension of starter code provided in [CISC489] at [University o
 ### Loss Convergence
 
 Training loss steadily decreased during 5000 epochs of Adam optimization, and further reduced by L-BFGS optimization.  
-The final loss stabilized around \(3.05 \times 10^{-2}\), indicating good model convergence.
+The final loss stabilized around \3.05 × 10⁻²\), indicating good model convergence.
 
 ---
 

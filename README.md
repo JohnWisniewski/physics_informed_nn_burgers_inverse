@@ -146,7 +146,7 @@ This work is an extension of starter code provided in [CISC489] at [University o
 | Inferred viscosity \(nu\) | 0.167 |
 | Final Loss | \( 3.05 × 10⁻²\) |
 
-✅ The PINN successfully inferred \(nu\) very close to the true value.
+The PINN successfully inferred \(nu\) very close to the true value.
 
 ---
 
@@ -170,7 +170,7 @@ The final loss stabilized around \(3.05 × 10⁻²\), indicating good model conv
 - **Physics enforcement**: Small errors in PDE residuals propagate into solution.
 - **Inverse instability**: Small errors in learned \(nu\) cause solution deviations.
 
-✅ Despite these limitations, the PINN was able to **capture the global behavior** accurately and **infer physical parameters** effectively.
+Despite these limitations, the PINN was able to **capture the global behavior** accurately and **infer physical parameters** effectively.
 
 ---
 
